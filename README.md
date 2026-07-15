@@ -121,7 +121,7 @@ Ao término, exibe:
 make          # Compila o projeto
 make run      # Compila (se necessário) e executa
 make clean    # Remove binários e objetos
-
+```
 📊 Exemplo de Execução
 
 ================================================================
