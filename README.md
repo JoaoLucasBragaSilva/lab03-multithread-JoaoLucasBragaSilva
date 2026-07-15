@@ -122,53 +122,6 @@ make          # Compila o projeto
 make run      # Compila (se necessário) e executa
 make clean    # Remove binários e objetos
 ```
-📊 Exemplo de Execução
-
-================================================================
-         TRAVESSIA DO RIO - REDMOND, WASHINGTON                 
-================================================================
-
-Regras de seguranca para o barco:
-  [OK] 4 Hackers
-  [OK] 4 Serfs
-  [OK] 2 Hackers + 2 Serfs
-  [PROIBIDO] 1 Hacker + 3 Serfs
-  [PROIBIDO] 3 Hackers + 1 Serf
-
-================================================================
-                   CONFIGURACAO DA SIMULACAO                      
-================================================================
-
-Quantidade de Hackers (0 a 50): 6
-Quantidade de Serfs (0 a 50): 6
-
-Numero maximo de barcos simultaneos (1 a 10): 2
-
-Intervalo maximo entre chegadas (ms) [aleatorio entre 50 e este valor] (50 a 5000): 1500
-
-Saída Esperada (Visualização)
-
-================================================================
-            TRAVESSIA DO RIO - REDMOND, WASHINGTON              
-================================================================
-
-  ULTIMOS EVENTOS:
-  > Hacker 0 chegou na margem do rio
-  > Serf 6 chegou na margem do rio
-  > Hacker 0: 2H+2S! Formando barco misto!
-  > Hacker 0 embarcou no barco 0 [CAPITAO]
-  > Barco 0 partindo!
-
-  Margem Esquerda (Esperando):
-  Hackers: 0   |  Serfs: 0
-
-  BARCOS PARTINDO:
-  Barco 0 partindo com: [H0*|S6 |H2 |S8 ]
-    Capitao: Hacker 0
-
-  Margem Direita (Atravessaram):
-  Total: 4   |  Hackers: 2   |  Serfs: 2   |  Travessias: 1
-================================================================
 
 📚 Referência
 Downey, Allen B. "The Little Book of Semaphores" — Capítulo 5.7: River Crossing Problem
